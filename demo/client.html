@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../lib/base.css">
+
+</head>
+<body>
+<input type="file" id="myFile" class="myFile" multiple>
+<input type="button" value="upload" id="upload">
+<input type="button" value="unlink" id="unlinkButton">
+
+<input type="text" name="" id="txt"/>
+<input type="button" value="upload" id="com"/>
+<input type="button" value="jindu" id="jindu">
+
+
+<br/>
+<br/>
+//首先跟服务器建立连接，并告诉服务器要发起请求了,这里建立连接后，会发过去一个固定字符串，告诉服务器现在要开始传输文件了<br/>//这一步只是梳理思路用，之后全部代码合起来的时候会去掉<br/>
+<input type="button" id="start" value="Let's Start，link start！">
+<br/>
+<span id="result1">result1:</span>
+<br/><br/>
+
+
+//客户端这边发送 文件名，文件大小，MD5值，这些的给服务器查询，查看是否是已经传输过的文件，<br/>
+如果存在断点的话，则从断点开始传，<br/>
+如果是已经100%的文件的话，则告知客户端，秒传成功，关闭socket<br/>
+如果不是的话，则返回告诉客户端，准备开始上传了<br/>
+<input type="button" id="sendfileinfo" value="send file info about (filename,fileSize,fileMd5)">
+<br/>
+<span id="result2">result2:</span>
+<br/><br/>
+
+
+//客户端开始切割文件上传，每次发送的包的开头的60位为信息，服务器需要截取出来，然后确定信息，和储存，储存到一个变量中，当前的包数在里面<br/><br/>
+<span style="text-decoration:line-through">
+    //然后在最后一个包的时候发完的最后一次循环的时候，也就是chunk=chunks的时候，客户端发出一个转成字符串的JSON，里面包含了信息，服务端根据信息去检查文件，成功则返回成功提示，失败则返回失败提示<br/><br/></span>
+
+<span style="color: #fff;background: #d5a">
+    //Change:在客户端收到全部的服务器回复以后，发送一条转成字符串的JSON，里面包含了信息，服务端根据信息检查文件成功则返回成功提示，失败则返回失败提示<br/></span>
+
+
+<input type="button" id="startUpload" value="Start Upload">
+<input type="button" id="continue" value="continue">
+<input type="button" id="stop" value="stop">
+
+<br/>
+<span id="result3">result3:</span>
+<br/><br/>
+
+
+<script src="../lib/jquery-3.2.1.min.js"></script>
+<!--<script src="base3.js"></script>-->
+<script src="../lib/spark-md5.js"></script>
+<script src="../lib/base6.js"></script>
+</body>
+</html>
+
+

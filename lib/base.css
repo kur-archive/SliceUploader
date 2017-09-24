@@ -1,0 +1,19 @@
+* {
+    font-family: 等线;
+    line-height: 25px;
+}
+
+table th,table td,table th{
+    border:  1px solid #aaa;
+}
+table {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.myfile {
+    text-align: left;
+    margin-bottom: 50px;
+
+
+}
