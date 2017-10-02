@@ -1,4 +1,5 @@
-# SliceUpload    <small><small><small>浏览器通过websocket切割大文件上传</small></small></small>
+# SliceUpload    
+<small>浏览器通过websocket切割大文件上传</small>
 
 
 \# 目录结构
