@@ -1,6 +1,10 @@
 # SliceUpload    
 <small>浏览器通过websocket切割大文件上传</small>
 
+
+[![OS](https://img.shields.io/badge/OS-Linux-red.svg)](#)
+[![npm](https://img.shields.io/npm/l/express.svg)](#)
+
 项目 实践思路 参见 [Doc](https://github.com/Kuri-su/SliceUploader/blob/master/_doc/Thinking.md)
 
 ## 简介
