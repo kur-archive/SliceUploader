@@ -68,6 +68,8 @@
 ## 服务器和客户端交互步骤
 参见 [实现思路](https://github.com/Kuri-su/SliceUploader/blob/master/_doc/Thinking.md)
 
+## 更新计划
+暂无
 
 ## LICENSE
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>MIT</b>
