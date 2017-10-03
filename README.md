@@ -1,7 +1,7 @@
 # SliceUpload    
 <small>浏览器通过websocket切割大文件上传</small>
 
-项目 实践思路 参见 [Doc]()
+项目 实践思路 参见 [Doc](https://github.com/Kuri-su/SliceUploader/blob/master/_doc/Thinking.md)
 
 ## 简介
 主要用于 `浏览器前端` 与 `服务器` 进行 `大文件分包传输`的 `可行思路` , 主要用于 学习与交流
@@ -54,7 +54,7 @@
 
 4. 然后在命令行运行指令, `php /demo/testDemo.php`，启动服务端脚本
 
-因为swoole必须运行在linux环境下，推荐在服务器上部署 `服务端脚本` 或者在本地使用 [Vagrant]() 开发环境
+因为swoole必须运行在linux环境下，推荐在服务器上部署 `服务端脚本` 或者在本地使用 [Vagrant](https://www.vagrantup.com/ "vagrant") 开发环境
 
 5. 然后在浏览器打开客户端 `client.html ` 文件，按照提示进行连接。
 
@@ -62,7 +62,7 @@
 `swoole` 必须运行在 `linux` 环境下
 
 ## 服务器和客户端交互步骤
-参见 [实现思路]()
+参见 [实现思路](https://github.com/Kuri-su/SliceUploader/blob/master/_doc/Thinking.md)
 
 
 ## LICENSE
