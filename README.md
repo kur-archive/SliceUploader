@@ -74,4 +74,4 @@
 ## LICENSE
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>MIT</b>
 
-//# 浏览器通过websocket切割大文件上传/切割上传/分割上传/断点续传/断线续传
+# 浏览器通过websocket切割大文件上传/切割上传/分割上传/断点续传/断线续传
