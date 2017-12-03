@@ -4,13 +4,10 @@
 [![OS](https://img.shields.io/badge/OS-Linux-red.svg)](#)
 [![npm](https://img.shields.io/npm/l/express.svg)](#)
 
-项目 实践思路 参见 [Doc](https://github.com/Kuri-su/SliceUploader/blob/master/_doc/Thinking.md)
-
 ## 简介
 主要用于 `浏览器前端` 与 `服务器` 进行 `大文件分包传输`的 `可行思路` , 主要用于 学习与交流
 
-
-\# 目录结构
+#### 目录结构
 ```
 -root
  | -lib                     #lib
@@ -64,11 +61,8 @@
 ## WARNING
 `swoole` 必须运行在 `linux` 环境下
 
-## 服务器和客户端交互步骤
-参见 [实现思路](https://github.com/Kuri-su/SliceUploader/blob/master/_doc/Thinking.md)
-
 ## 更新计划
-暂无
+无
 
 ## LICENSE
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>MIT</b>
