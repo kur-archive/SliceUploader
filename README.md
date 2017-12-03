@@ -1,4 +1,4 @@
-# SliceUpload    
+# SliceUpload (final)
 <small>浏览器通过websocket切割大文件上传</small>
 
 [![OS](https://img.shields.io/badge/OS-Linux-red.svg)](#)
